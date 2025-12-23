@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MandoLearn - Teoría Musical</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body class="content-page">
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="../static/img/mandolin-icon.png" alt="Icono" onerror="this.style.display='none'">
+                MandoLearn 🎵
+            </a>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html">Mandolina</a></li>
+                <li><a href="teoria.html">Teoría</a></li>
+                <li><a href="ejercicios.html">Ejercicios</a></li>
+                <li><a href="acerca.html">Acerca de</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="login.html" class="btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content container">
+        <h1 style="text-align: center; margin-bottom: 2rem;">Teoría Musical Básica</h1>
+        <p style="text-align: center; margin-bottom: 3rem; max-width: 700px; margin-left:auto; margin-right:auto;">
+            Entender la teoría es clave para dominar el diapasón. Sigue estos pasos para comenzar tu viaje.
+        </p>
+
+        <!-- Guía Paso a Paso -->
+        <div class="card-grid" style="grid-template-columns: 1fr;"> <!-- Tarjetas de ancho completo para pasos -->
+
+            <article class="card">
+                <h2>Paso 1: La Afinación (Sol-Re-La-Mi)</h2>
+                <div class="intro-section">
+                    <div class="intro-text">
+                        <p>La mandolina se afina en quintas justas, idéntico al violín. Las cuerdas, desde la más gruesa
+                            (arriba) a la más delgada (abajo), son:</p>
+                        <ul style="margin: 1rem 0; padding-left: 20px;">
+                            <li><strong>4ta Cuerda (G):</strong> Sol (la más grave)</li>
+                            <li><strong>3ra Cuerda (D):</strong> Re</li>
+                            <li><strong>2da Cuerda (A):</strong> La</li>
+                            <li><strong>1ra Cuerda (E):</strong> Mi (la más aguda)</li>
+                        </ul>
+                        <p>Usa un afinador electrónico para asegurar que cada par de cuerdas suene al unísono perfecto.
+                        </p>
+                    </div>
+                    <div class="intro-image">
+                        <!-- Marcador para Diagrama de Afinación -->
+                        <img src="../static/img/tuning-diagram.jpg" alt="Diagrama de Afinación"
+                            onerror="this.src='https://placehold.co/400x200?text=G-D-A-E+Afinación'">
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <h2>Paso 2: Notas en el Diapasón</h2>
+                <p>En la mandolina, cada traste equivale a un <strong>semitono</strong>. Dos trastes equivalen a un
+                    <strong>tono</strong>.
+                </p>
+                <p style="margin-top: 1rem;">Ejemplo en la cuerda LA (2da cuerda):</p>
+                <ul style="margin: 1rem 0; padding-left: 20px;">
+                    <li>Cuerda al aire: <strong>La (A)</strong></li>
+                    <li>Traste 1: <strong>La# / Si b</strong></li>
+                    <li>Traste 2: <strong>Si (B)</strong></li>
+                    <li>Traste 3: <strong>Do (C)</strong></li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <h2>Paso 3: Acordes Básicos (Sol y Do)</h2>
+                <p>Los acordes de "dos dedos" son ideales para empezar. Observa el diagrama para Sol Mayor (G Major) y
+                    Do Mayor (C Major).</p>
+                <div style="display: flex; gap: 2rem; margin-top: 1rem; flex-wrap: wrap; justify-content: center;">
+                    <div style="text-align: center;">
+                        <img src="../static/img/chord-g.jpg" alt="Acorde G"
+                            onerror="this.src='https://placehold.co/150x200?text=Acorde+G'">
+                        <p><strong>Sol Mayor (G)</strong></p>
+                    </div>
+                    <div style="text-align: center;">
+                        <img src="../static/img/chord-c.jpg" alt="Acorde C"
+                            onerror="this.src='https://placehold.co/150x200?text=Acorde+C'">
+                        <p><strong>Do Mayor (C)</strong></p>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- Sección de Recursos de Video -->
+        <section>
+            <h2 style="margin-top: 3rem; margin-bottom: 2rem;">Recursos en Video</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Introducción a la Teoría</h3>
+                    <p style="margin-bottom: 1rem;">Conceptos básicos explicados claramente.</p>
+                    <div class="video-wrapper">
+                        <!-- Video de YouTube Insertado (marcador) -->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/fLS7gjQ_tsg"
+                            title="Afinación de Mandolina" frameborder="0"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen onerror="this.style.display='none'"></iframe>
+                        <div
+                            style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:#eee; z-index:-1;">
+                            Video Placeholder</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Lectura de Tablaturas</h3>
+                    <p style="margin-bottom: 1rem;">Aprende a leer los números en las líneas.</p>
+                    <div class="video-wrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hx5rOrOT0TI"
+                            title="Leer Tablaturas" frameborder="0" referrerpolicy="strict-origin-when-cross-origin"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        <div
+                            style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:#eee; z-index:-1;">
+                            Video Placeholder</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 MandoLearn - percy-MS</p>
+    </footer>
+
+    <script src="../static/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MandoLearn - Iniciar Sesión</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <style>
+        /* Fondo compartido con página de contacto */
+        body.auth-page {
+            background-image: url('../static/img/contact-bg-1.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        /* Superposición */
+        body.auth-page::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(44, 62, 80, 0.7);
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body class="auth-page">
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="../static/img/mandolin-icon.png" alt="Icono" onerror="this.style.display='none'">
+                MandoLearn 🎵
+            </a>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html">Mandolina</a></li>
+                <li><a href="teoria.html">Teoría</a></li>
+                <li><a href="ejercicios.html">Ejercicios</a></li>
+                <li><a href="acerca.html">Acerca de</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="login.html" class="btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content container">
+        <div class="form-container">
+            <h2 style="text-align: center; margin-bottom: 2rem;">Iniciar Sesión</h2>
+            <form action="/api/login" method="POST">
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <button type="submit" class="btn" style="width: 100%;">Entrar</button>
+            </form>
+            <p style="text-align: center; margin-top: 1rem;">
+                ¿No tienes cuenta? <a href="registro.html"
+                    style="color: var(--accent-color); font-weight: bold;">Regístrate aquí</a>.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 MandoLearn - percy-MS</p>
+    </footer>
+
+    <script src="../static/js/main.js"></script>
+    <script src="../static/js/validation.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MandoLearn - Ejercicios</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body class="content-page">
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="../static/img/mandolin-icon.png" alt="Icono" onerror="this.style.display='none'">
+                MandoLearn 🎵
+            </a>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html">Mandolina</a></li>
+                <li><a href="teoria.html">Teoría</a></li>
+                <li><a href="ejercicios.html">Ejercicios</a></li>
+                <li><a href="acerca.html">Acerca de</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="login.html" class="btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content container">
+        <h1 style="text-align: center; margin-bottom: 3rem;">Biblioteca de Ejercicios</h1>
+
+        <!-- Nivel Principiante -->
+        <section>
+            <h2 style="border-bottom: 2px solid var(--accent-color); display: inline-block; padding-bottom: 5px;">Nivel
+                Principiante</h2>
+            <div class="card-grid">
+                <article class="card">
+                    <h3>1. Cuerdas al Aire</h3>
+                    <p style="margin-bottom: 1rem;">Objetivo: Lograr un sonido limpio en las 4 cuerdas sin usar la mano
+                        izquierda.</p>
+                    <div class="video-wrapper">
+                        <!-- Espacio para video -->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/KVynlcyf1ec"
+                            title="Técnica Mano Derecha" frameborder="0"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h3>2. La Araña (1-2-3-4)</h3>
+                    <p style="margin-bottom: 1rem;">Ejercicio de digitación cromática en los primeros 4 trastes para
+                        independencia de dedos.</p>
+                    <img src="../static/img/ex-spider.jpg" alt="Tablatura Araña" style="width:100%; height:auto;"
+                        onerror="this.src='https://placehold.co/400x150?text=Tablatura+1-2-3-4'">
+                </article>
+            </div>
+        </section>
+
+        <!-- Nivel Intermedio -->
+        <section>
+            <h2 style="border-bottom: 2px solid var(--accent-color); display: inline-block; padding-bottom: 5px;">Nivel
+                Intermedio</h2>
+            <div class="card-grid">
+                <article class="card">
+                    <h3>1. Escalas Mayores</h3>
+                    <p style="margin-bottom: 1rem;">Escalas de Sol (G) y Re (D) en dos octavas, usando posiciones
+                        cerradas.</p>
+                    <div class="video-wrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/hQFgIx8vUeE"
+                            title="Escala Sol Mayor" frameborder="0" referrerpolicy="strict-origin-when-cross-origin"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h3>2. Arpegios Básicos</h3>
+                    <p style="margin-bottom: 1rem;">Tocar las notas del acorde una por una con salto de cuerda.</p>
+                    <img src="../static/img/ex-arpeggio.jpg" alt="Arpegios" style="width:100%; height:auto;"
+                        onerror="this.src='https://placehold.co/400x150?text=Partitura+Arpegios'">
+                </article>
+            </div>
+        </section>
+
+        <!-- Nivel Avanzado -->
+        <section>
+            <h2 style="border-bottom: 2px solid var(--accent-color); display: inline-block; padding-bottom: 5px;">Nivel
+                Avanzado</h2>
+            <div class="card-grid">
+                <article class="card">
+                    <h3>1. Técnica de Trémolo</h3>
+                    <p style="margin-bottom: 1rem;">Movimiento rápido y fluido de la púa para crear sustain en melodías.
+                    </p>
+                    <div class="video-wrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7NOvcnMYmYE"
+                            title="Técnica de Trémolo" frameborder="0" referrerpolicy="strict-origin-when-cross-origin"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h3>2. Crosspicking</h3>
+                    <p style="margin-bottom: 1rem;">Patrones complejos de salto de cuerda similares al banjo.</p>
+                    <div class="video-wrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/VUuZnudaWz4"
+                            title="Crosspicking" frameborder="0" referrerpolicy="strict-origin-when-cross-origin"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 MandoLearn - percy-MS</p>
+    </footer>
+
+    <script src="../static/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MandoLearn - Acerca de Mí</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body class="content-page">
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="../static/img/mandolin-icon.png" alt="Icono" onerror="this.style.display='none'">
+                MandoLearn 🎵
+            </a>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html">Mandolina</a></li>
+                <li><a href="teoria.html">Teoría</a></li>
+                <li><a href="ejercicios.html">Ejercicios</a></li>
+                <li><a href="acerca.html">Acerca de</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="login.html" class="btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner de Cabecera para Página Acerca de -->
+    <header class="hero"
+        style="padding: 4rem 2rem; background-image: url('../static/img/about-mandolin-bg.jpg'); background-position: center bottom;">
+        <div class="container">
+            <h1>Acerca del Autor</h1>
+        </div>
+    </header>
+
+    <main class="main-content container">
+        <section style="max-width: 800px; margin: 0 auto;">
+            <article class="card">
+                <div style="display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap;">
+                    <!-- Marcador para Foto de Perfil -->
+                    <img src="../static/img/profile-percy.jpg" alt="Percy"
+                        style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: var(--shadow-card);"
+                        onerror="this.src='https://placehold.co/150x150?text=Percy'">
+
+                    <div style="flex: 1; min-width: 250px;">
+                        <h2 style="color: var(--secondary-color);">Hola, soy Percy</h2>
+                        <h4 style="color: var(--accent-color); margin-bottom: 1rem;">Estudiante de la UNSA (Arequipa)
+                        </h4>
+
+                        <p>Bienvenidos a <strong>MandoLearn</strong>.</p>
+
+                        <p style="margin-top: 1rem;">
+                            Soy un estudiante apasionado por la intersección entre la música y la tecnología.
+                            Este proyecto nace como una iniciativa universitaria para facilitar el aprendizaje de la
+                            mandolina,
+                            un instrumento con gran tradición pero a veces con pocos recursos modernos en español.
+                        </p>
+
+                        <p style="margin-top: 1rem;">
+                            Desarrollado con tecnologías web puras (HTML5, CSS3, JavaScript) y un backend en Python,
+                            este sitio busca demostrar que se pueden crear herramientas educativas elegantes y
+                            funcionales
+                            siguiendo los principios fundamentales de la programación.
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 MandoLearn - percy-MS</p>
+    </footer>
+
+    <script src="../static/js/main.js"></script>
+</body>
+
+</html>
