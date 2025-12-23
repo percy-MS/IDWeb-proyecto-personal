@@ -1,12 +1,16 @@
-# MandoLearn - Sitio Web Educativo de Mandolina
+# Proyecto: MandoLearn
 
-Este es el proyecto final para el curso de Introduccion al Desarrollo Web. Es un sitio educativo sobre la mandolina con funcionalidades de registro de usuarios, login y formulario de contacto.
+**URL del Proyecto:** [http://idweb-proyecto-personal-production.up.railway.app/](http://idweb-proyecto-personal-production.up.railway.app/)
 
-## Tecnologías
+## Descripción
+Este es el proyecto final para el curso de Introducción al Desarrollo Web. Es un sitio web educativo dedicado a la enseñanza de la mandolina, que incluye secciones de teoría musical, ejercicios interactivos y una breve historia del instrumento. La aplicación cuenta con funcionalidades completas de registro de usuarios, inicio de sesión seguro, gestión de sesiones y un formulario de contacto con panel de administración protegido.
 
-*   **Frontend:** HTML5, CSS3, JavaScript 
-*   **Backend:** Python 3 (`http.server`)
-*   **Base de Datos:** MySQL
+## Lenguajes y Tecnologías
+*   **HTML5** (Estructura)
+*   **CSS3** (Estilos y Diseño Responsivo)
+*   **JavaScript** (Lógica del Frontend)
+*   **Python** (Backend y Lógica del Servidor)
+*   **SQL** (Base de Datos MySQL)
 *   **Librerías:** `mysql-connector-python`
 
 ## Estructura del Proyecto
