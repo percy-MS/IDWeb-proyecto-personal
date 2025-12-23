@@ -1,4 +1,8 @@
 import os
+from dotenv import load_dotenv
+
+# Cargar variables de entorno desde .env si existe (para desarrollo local conectado a Railway)
+load_dotenv()
 
 # Configuración de Base de Datos
 # Usa variables de entorno si existen (para producción/Railway), 
