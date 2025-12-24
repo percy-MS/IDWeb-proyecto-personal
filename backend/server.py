@@ -50,7 +50,14 @@ class MandolinRequestHandler(http.server.SimpleHTTPRequestHandler):
                 self.end_headers()
             return
 
-        # 3. Páginas HTML
+            return
+
+        # 3. API GET Endpoints
+        if path == '/api/mensajes':
+             self.handle_get_messages()
+             return
+
+        # 4. Páginas HTML
         # Mapear / a index.html
         if path == '/' or path == '/index.html':
             self.serve_file(os.path.join(FRONTEND_DIR, 'index.html'))
@@ -83,8 +90,8 @@ class MandolinRequestHandler(http.server.SimpleHTTPRequestHandler):
             self.handle_contact()
         elif path == '/api/logout':
             self.handle_logout()
-        elif path == '/api/mensajes': # API Admin para obtener mensajes
-             self.handle_get_messages()
+        elif path == '/api/logout':
+            self.handle_logout()
         else:
             self.send_error(404, "Endpoint API no encontrado")
 
